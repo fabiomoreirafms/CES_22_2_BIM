@@ -1,3 +1,4 @@
+# Feito com base no exemplo do material didático fornecido
 
 class AbstractInterface:
 # Target interface.
