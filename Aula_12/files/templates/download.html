@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download</title>
+</head>
+<body>
+    <h1>Arquivos disponíveis para download:</h1>
+    {% for nome in lista %}
+    <p><a href = '/downloadfile/{{nome}}'><b>{{nome}}</b></a></p>
+{% endfor %}
+</body>
+</html>
